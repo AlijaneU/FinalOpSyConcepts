@@ -1,1 +1,0 @@
-cmd_/root/kernel_modules/hello_world_mod.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /root/kernel_modules/hello_world_mod.ko /root/kernel_modules/hello_world_mod.o /root/kernel_modules/hello_world_mod.mod.o;  true
